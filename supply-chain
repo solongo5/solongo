@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Supply Chain Case Study</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 40px auto;
+  line-height: 1.6;
+}
+h2 {
+  margin-top: 40px;
+}
+img {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Supply Chain Performance Intelligence System</h1>
+
+<h2>1. Business Problem</h2>
+<p>
+Late delivery rates exceeded 57%, impacting customer satisfaction and operational efficiency.
+The organization lacked visibility into delay drivers across shipping modes, countries, and SKU categories.
+</p>
+
+<h2>2. System Architecture</h2>
+<p>
+Data was collected through structured input, stored in Azure SQL, and visualized in Tableau dashboards
+for executive-level KPI monitoring.
+</p>
+
+<h2>3. Entity Relationship Diagram</h2>
+<img src="erd.png" width="100%" alt="Entity Relationship Diagram">
+
+<h2>4. Relational Schema</h2>
+<img src="relational-schema.png" width="100%" alt="Relational Schema">
+
+<h2>5. Key Insights</h2>
+<ul>
+<li>57% late delivery rate identified</li>
+<li>Shipping mode risk segmentation revealed highest delays in premium methods</li>
+<li>Revenue concentrated in ABC Class A products (77%)</li>
+</ul>
+
+<h2>6. Business Impact</h2>
+<p>
+Enabled data-driven shipping strategy optimization, inventory prioritization,
+and regional risk management improvements.
+</p>
+
+<p><a href="index.html">← Back to Home</a></p>
+
+</body>
+</html>
